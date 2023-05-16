@@ -1,2 +1,10 @@
-let nombre = prompt ("decime tu nombre") 
-alert ("bienvenido " + nombre)
+ let numero1 = prompt ("escribe un numero");
+ let numero2 = prompt ("escribe un numero");
+ let resultado1 = Number(numero1) + Number(numero2);
+ let resultado2= Number(numero1) - Number(numero2);
+let resultado3= Number(numero1) * Number(numero2);
+let resultado4= Number(numero1) / Number(numero2);
+ console.log ( "el resultado de la suma es " + resultado1); 
+console.log ("el resultado de la resta es "+ resultado2);
+ console.log("el resultado de la multiplicacion es "  + resultado3);
+ console.log("el resultado de la division es "+ resultado4);
