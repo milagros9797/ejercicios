@@ -1,4 +1,15 @@
-let nombre=prompt ("escribe tu nombre");
-let edad=prompt ("escribe tu edad");
+let numero = prompt("escribe un numero");
+if   (numero > 0)
+{  
+    console.log( "el numero es positivo") 
 
-alert( "Hola "+ nombre + ",tienes " + edad + " años.")
+
+}
+else if (numero < 0)
+{
+    console.log("el numero es negativo")
+}
+else
+{  
+console.log ("el numero es cero") 
+}
