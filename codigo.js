@@ -8,7 +8,7 @@ let numero1 = prompt("escribe un numero");
 let elegirOperacion = prompt("escribe la operacion que quieres hacer: sumar, restar, multiplicar,dividir");
 
 let numero2 = prompt("escribe un numero");
- let operacion = ["sumaste", "restaste", "multiplicaste", "dividiste"]
+let operacion = ["sumaste", "restaste", "multiplicaste", "dividiste"]
 let resultado1 = Number(numero1) + Number(numero2);
 let resultado2 = Number(numero1) - Number(numero2);
 let resultado3 = Number(numero1) * Number(numero2);
@@ -16,7 +16,7 @@ let resultado4 = Number(numero1) / Number(numero2);
 
 
 
-if ( elegirOperacion = "sumar"  ) {
+if (elegirOperacion = "sumar") {
     console.log("el resultado de la suma es " + resultado1);
     alert(operacion[0]);
 }
@@ -25,7 +25,7 @@ else if (elegirOperacion = "restar") {
     alert(operacion[1]);
 }
 
- else if (elegirOperacion = "multiplicar") {
+else if (elegirOperacion = "multiplicar") {
     console.log("el resultado de la multiplicacion es " + resultado3);
     alert(operacion[2]);
 }
@@ -36,10 +36,10 @@ else {
 }
 
 //ejercicio 2, operadores de javascript
-let nombre1 =prompt ("escribe tu nombre");
-let edad=prompt ("escribe tu edad");
+let nombre1 = prompt("escribe tu nombre");
+let edad = prompt("escribe tu edad");
 
-alert( "Hola "+ nombre + ",tienes " + edad + " años.")
+alert("Hola " + nombre + ",tienes " + edad + " años.")
 
 //ejercicio 3, concatenacion
 
@@ -54,6 +54,22 @@ else if (numero < 0) {
 }
 else {
     console.log("el numero es cero")
-} 
+}
 
 // ejercicio 4, condicional con if
+
+let edadUsuario = prompt("escribe tu edad")
+if (edadUsuario >= 18) {
+    alert("Eres mayor de edad")
+}
+else {
+    alert("Eres menor de edad")
+}
+
+// ejercicio 5, combinacion de conceptos
+
+
+
+
+
+
