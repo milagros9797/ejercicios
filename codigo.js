@@ -112,3 +112,13 @@ else {
     alert(diaDeLaSemana[7])
 }
 // ejercicio 8
+
+let numero8=prompt("escribe un numero para saber si es par o impar");
+let numeroPar = numero8;
+
+if (numero8 %2 == 0) {
+    console.log(parseInt(numero8) +" es un numero par")
+}
+else {
+    console.log(parseInt(numero8) +" es un numero impar")
+}
