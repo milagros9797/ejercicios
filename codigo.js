@@ -73,3 +73,16 @@ console.log ("el numero es negativo")
 }
 
 // ejercicio 6
+
+let numero4 = prompt ("escribe un numero");
+let numero5 = prompt ("escribe un numero");
+Number= numero4;
+Number= numero5;
+if (numero4 > numero5) {
+    console.log (numero4 + " es el numero mayor")
+}
+else {
+    console.log (numero5 + " es el numero mayor")
+}
+
+//ejercicio 7
