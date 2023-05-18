@@ -4,9 +4,9 @@ alert("bienvenido " + nombre)
 //ejercicio 1, pedir datos con prompt
 
 
-let numero1 = prompt("escribe un numero");
+let numero1 = prompt("escribe el primer numero para hacer una operacion");
 let elegirOperacion = prompt("escribe la operacion que quieres hacer: sumar, restar, multiplicar,dividir");
-let numero2 = prompt("escribe un numero");
+let numero2 = prompt("escribe el segundo numero de la operacion");
 let operacion = ["sumaste", "restaste", "multiplicaste", "dividiste"]
 let resultado1 = Number(numero1) + Number(numero2);
 let resultado2 = Number(numero1) - Number(numero2);
@@ -40,7 +40,7 @@ alert("Hola " + nombre + ",tienes " + edad + " años.")
 
 //ejercicio 3, concatenacion
 
-let numero = prompt("escribe un numero");
+let numero = prompt("escribe un numero para saber si es positivo, negativo o cero");
 if (numero > 0) {
     console.log("el numero es positivo")
 
@@ -64,7 +64,7 @@ else {
 
 // ejercicio 5, combinacion de conceptos
 
-let numero3= prompt ("escribe un numero");
+let numero3= prompt ("escribe un numero para saber si es negativo o positivo");
 if (numero3 > 0) { 
 console.log ("el numero es positivo")
 } 
@@ -74,8 +74,8 @@ console.log ("el numero es negativo")
 
 // ejercicio 6
 
-let numero4 = prompt ("escribe un numero");
-let numero5 = prompt ("escribe un numero");
+let numero4 = prompt ("escribe el primer numero para comparar si es mayor");
+let numero5 = prompt ("escribe el segundo numero");
 let positivo1= Number(numero4);
 let negativo1 = Number(numero5)
 if (numero4 > numero5) {
@@ -122,3 +122,15 @@ if (numero8 %2 == 0) {
 else {
     console.log(parseInt(numero8) +" es un numero impar")
 }
+
+//ejercicio 9
+
+let edadUsuario1= prompt("escribe tu edad para poder votar");
+let mayorDeEdad = parseInt (edadUsuario1);
+if (edadUsuario1 >= 18) {
+    alert("eres elegible para votar" )
+}
+ else {
+    alert("No eres elegible para votar")
+ }
+ //ejercicio 10
