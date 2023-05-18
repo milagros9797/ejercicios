@@ -63,3 +63,13 @@ else {
 }
 
 // ejercicio 5, combinacion de conceptos
+
+let numero3= prompt ("escribe un numero");
+if (numero3 > 0) { 
+console.log ("el numero es positivo")
+} 
+else { 
+console.log ("el numero es negativo")
+}
+
+// ejercicio 6
