@@ -76,8 +76,8 @@ console.log ("el numero es negativo")
 
 let numero4 = prompt ("escribe un numero");
 let numero5 = prompt ("escribe un numero");
-Number= numero4;
-Number= numero5;
+let positivo1= Number(numero4);
+let negativo1 = Number(numero5)
 if (numero4 > numero5) {
     console.log (numero4 + " es el numero mayor")
 }
@@ -86,3 +86,29 @@ else {
 }
 
 //ejercicio 7
+
+let numero6= prompt("escribe un numero del 1 al 7");
+let numero7= Number(numero6);
+let diaDeLaSemana= ["domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
+if (numero6== 1) {  
+alert (diaDeLaSemana[1]) 
+}
+else if (numero6 == 2) {
+    alert(diaDeLaSemana[2])
+} 
+else if (numero6 == 3) {
+alert(diaDeLaSemana[3])
+}
+else if (numero6 == 4) {
+    alert(diaDeLaSemana[4])
+}
+else if (numero6 == 5) {
+alert(diaDeLaSemana[5])
+}
+else if (numero6 == 6) {
+    alert(diaDeLaSemana[6])
+}
+else {
+    alert(diaDeLaSemana[7])
+}
+// ejercicio 8
